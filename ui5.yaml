@@ -2,3 +2,10 @@ specVersion: "3.2"
 metadata:
   name: ui5.walkthrough
 type: application
+framework:
+  name: OpenUI5
+  version: "1.120.2"
+  libraries:
+    - name: sap.m
+    - name: sap.ui.core
+    - name: themelib_sap_horizon
