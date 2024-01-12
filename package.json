@@ -6,10 +6,13 @@
         "start": "ui5 serve -o index.html",
         "startMockServer": "ui5 serve -o test/mockServer.html",
         "unitTests": "ui5 serve -o test/unit/unitTests.qunit.html",
-        "opaTests": "ui5 serve -o test/integration/opaTests.qunit.html"
+        "opaTests": "ui5 serve -o test/integration/opaTests.qunit.html",
+        "build": "ui5 build -a",
+        "serve-dist": "ws --compress -d dist --open"
     },
     "devDependencies": {
         "@ui5/cli": "^3.8.0",
+        "local-web-server": "^5.3.1",
         "ui5-middleware-simpleproxy": "^3.2.10"
     }
 }
