@@ -4,5 +4,9 @@ sap.ui.define([
    "use strict";
 
    return Controller.extend("ui5.walkthrough.controller.App", {
+		
+      onInit() {
+			this.getView().addStyleClass(this.getOwnerComponent().getContentDensityClass());
+		}
    });
 });
